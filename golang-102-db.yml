@@ -1,0 +1,16 @@
+title: |
+  Database Access
+  in Golang
+
+chat: "[Workplace](https://ooredoo.workplace.com/chat/t/3784138134946679)"
+
+gitrepo: github.com/isatdev/golang-101-intro.git
+
+slides: http://isatdev.github.io/
+
+exclude:
+- in-person
+
+content:
+- shared/title.md
+- shared/about-slides.md

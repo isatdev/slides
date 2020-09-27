@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Database Access in Golang </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="workshop.css">
+  </head>
+  <body>
+    <!--
+    <div style="position: absolute; left: 20%; right: 20%; top: 30%;">
+      <h1 style="font-size: 3em;">Loading ...</h1>
+      The slides should show up here. If they don't, it might be
+      because you are accessing this file directly from your filesystem.
+      It needs to be served from a web server. You can try this:
+      <pre>
+        docker-compose up -d
+        open http://localhost:8888/workshop.html # on MacOS
+        xdg-open http://localhost:8888/workshop.html # on Linux
+      </pre>
+      Once the slides are loaded, this notice disappears when you
+      go full screen (e.g. by hitting "f").
+    </div>
+    -->
+    <textarea id="source">class: title
+
+Database Access<br/>in Golang<br/>
+
+.debug[
+```
+ M golang-101-intro.yml
+ M golang-101-intro.yml.html
+ M golang-102-db.yml
+ M golang-102-db.yml.html
+ M golang-103-web.yml
+ M golang-103-web.yml.html
+ M golang-104-crud.yml
+ M golang-104-crud.yml.html
+ M index.html
+ M index.yaml
+ M intro-selfpaced.yml.html
+ M kube-selfpaced.yml.html
+ M shared/title.md
+ M swarm-selfpaced.yml.html
+
+```
+
+These slides have been built from commit: 899a201
+
+
+[shared/title.md](https://github.com/isatdev/slides.git/tree/master//shared/title.md)]
+---
+## Accessing these slides now
+
+- I recommend that you open these slides in your browser:
+
+  http://isatdev.github.io/
+
+- Use arrows to move to next/previous slide
+
+  (up, down, left, right, page up, page down)
+
+- Type a slide number + ENTER to go to that slide
+
+- The slide number is also visible in the URL bar
+
+  (e.g. .../#123 for slide 123)
+
+.debug[[shared/about-slides.md](https://github.com/isatdev/slides.git/tree/master//shared/about-slides.md)]
+---
+
+class: extra-details
+
+## Extra details
+
+- This slide has a little magnifying glass in the top left corner
+
+- This magnifying glass indicates slides that provide extra details
+
+- Feel free to skip them if:
+
+  - you are in a hurry
+
+  - you are new to this and want to avoid cognitive overload
+
+  - you want only the most essential information
+
+- You can review these slides another time if you want, they'll be waiting for you ☺
+
+.debug[[shared/about-slides.md](https://github.com/isatdev/slides.git/tree/master//shared/about-slides.md)]</textarea>
+    <script src="remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        ratio: '16:9',
+        highlightSpans: true,
+        slideNumberFormat: '%current%/%total%',
+        excludedClasses: ["in-person"]
+      });
+    </script>
+    
+    <!-- 
+    These two scripts will be available only when loading the
+    content using the pub/sub server. Otherwise, they'll just
+    404 and that's OK.
+    -->
+    <script src="/socket.io/socket.io.js">
+    </script>
+    <script src="/remote.js">
+    </script>
+
+  </body>
+</html>

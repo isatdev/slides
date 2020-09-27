@@ -1,0 +1,47 @@
+- title: Introduction to Docker and Containers
+  category: docker
+  country: www
+  slides: intro-selfpaced.yml.html
+
+- title: Container Orchestration with Docker and Swarm
+  category: docker
+  country: www
+  slides: swarm-selfpaced.yml.html
+
+- title: Deploying and Scaling Microservices with Docker and Kubernetes
+  category: docker
+  country: www
+  slides: kube-selfpaced.yml.html
+
+- date: 2020-09-11
+  country: id
+  city: streaming
+  event: MS Teams
+  title: Introduction to Golang
+  category: golang
+  slides: golang-101-intro.yml.html
+  video: https://web.microsoftstream.com/video/100e535f-f95f-4ffc-bb38-d521075bcb68
+
+- date: 2020-10-02
+  country: id
+  city: streaming
+  event: MS Teams
+  title: Database Access in Golang
+  category: golang
+  status: TBD
+
+- date: 2020-10-16
+  country: id
+  city: streaming
+  event: MS Teams
+  title: Web Application in Golang
+  category: golang
+  status: TBD
+
+- date: 2020-10-30
+  country: id
+  city: streaming
+  event: MS Teams
+  title: Simple CRUD API in Golang
+  category: golang
+  status: TBD
